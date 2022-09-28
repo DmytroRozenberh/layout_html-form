@@ -1,1 +1,12 @@
-/* styles go here */
+.form-field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.conteiner {
+  margin-bottom: 20px;
+}
+
+.conteiner > .form-field:last-of-type {
+  margin-bottom: 0;
+}
